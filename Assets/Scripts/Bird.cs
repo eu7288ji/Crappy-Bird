@@ -4,24 +4,15 @@ using UnityEngine;
 
 public class Bird : MonoBehaviour {
 
-	public float speed = 2;
-	//float playerHeight = GameObject.transform.position.y;
-
-	void Start () {
-
-		//GetComponent<Rigidbody2D> ().velocity = Vector2.right * speed;
-
-	}
-	
 	void Update () {
 
-		if (gameObject.transform.position.y == 9) {
+		if (gameObject.transform.position.y == 9) { //if the bird reaches a certain height on the Y axis, reset
 			Application.LoadLevel (Application.loadedLevel);
 		}
 
 	}
 
-	void OnCollisionEnter2D(Collision2D coll){
+	void OnCollisionEnter2D(Collision2D coll){ //activate the BirdDied method upon collision with any object
 		PlayerController.instance.BirdDied();
 	}
 		

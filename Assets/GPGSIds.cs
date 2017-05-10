@@ -25,6 +25,7 @@
 public static class GPGSIds
 {
         public const string achievement_icarus_lives = "CgkI0seam_UOEAIQAw"; // <GPGSID>
+        public const string achievement_bronze_aviator_license = "CgkI0seam_UOEAIQBQ"; // <GPGSID>
         public const string achievement_defying_time = "CgkI0seam_UOEAIQAg"; // <GPGSID>
         public const string achievement_up_and_away = "CgkI0seam_UOEAIQAA"; // <GPGSID>
         public const string leaderboard_leaderboard = "CgkI0seam_UOEAIQAQ"; // <GPGSID>

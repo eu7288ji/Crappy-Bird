@@ -123,8 +123,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -90.29996}
-  m_SizeDelta: {x: 481, y: 90.29999}
+  m_AnchoredPosition: {x: 0, y: -123}
+  m_SizeDelta: {x: 657, y: 123}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &19337953
 MonoBehaviour:
@@ -158,7 +158,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: JUMP TO RESTART
+  m_Text: TAP SCREEN TO RESTART
 --- !u!222 &19337954
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 193507643}
   - component: {fileID: 193507646}
   - component: {fileID: 193507645}
+  - component: {fileID: 193507647}
   m_Layer: 0
   m_Name: bird_0
   m_TagString: Untagged
@@ -480,7 +481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf8cb96205ba447c7a0d19378c7ef0c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
 --- !u!114 &193507646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -498,6 +498,17 @@ MonoBehaviour:
   gameOverText: {fileID: 515239637}
   gameOver: 0
   scoreText: {fileID: 696855846}
+--- !u!114 &193507647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 193507639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a69d2a7804c4eb08a14acd62a4f05c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &237093821
 GameObject:
   m_ObjectHideFlags: 0
